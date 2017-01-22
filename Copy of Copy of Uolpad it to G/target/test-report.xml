@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.07968">
+<testcase classname="Sign in page" name="Sign in page" time="11.07968">
+<system-out><![CDATA[Given User at home page.....................................................passed
+When I enter qatest@qatester.com in email_address filed.....................passed
+And I enter AY in password filed............................................passed
+And click next-button id....................................................passed
+Then 'Your Password must contain between 6 and 12 characters. Please re-enter it before continuing.' will see it '//*[@id="passwd-field"]/div'.passed
+]]></system-out>
+</testcase>
+</testsuite>

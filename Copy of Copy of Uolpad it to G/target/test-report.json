@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Sign in page",
+        "description": "",
+        "id": "sign-in-page;sign-in-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7114686571,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User at home page",
+            "match": {
+              "location": "testingloginsteps.user_at_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1222663289,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter qatest@qatester.com in email_address filed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qatest@qatester.com",
+                  "offset": 8
+                },
+                {
+                  "val": "email_address",
+                  "offset": 31
+                }
+              ],
+              "location": "testingloginsteps.I_enter_text_for_singin_page(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1596987744,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter AY in password filed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AY",
+                  "offset": 8
+                },
+                {
+                  "val": "password",
+                  "offset": 14
+                }
+              ],
+              "location": "testingloginsteps.I_enter_text_for_singin_page(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1084751260,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click next-button id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "next-button",
+                  "offset": 6
+                }
+              ],
+              "location": "testingloginsteps.I_click_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60590789,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\u0027Your Password must contain between 6 and 12 characters. Please re-enter it before continuing.\u0027 will see it \u0027//*[@id\u003d\"passwd-field\"]/div\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your Password must contain between 6 and 12 characters. Please re-enter it before continuing.",
+                  "offset": 1
+                },
+                {
+                  "val": "//*[@id\u003d\"passwd-field\"]/div",
+                  "offset": 109
+                }
+              ],
+              "location": "testingloginsteps.check_message(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign in page",
+    "description": "",
+    "id": "sign-in-page",
+    "keyword": "Feature",
+    "uri": "src/test/HomeWork/sign_in_page.feature"
+  }
+]
