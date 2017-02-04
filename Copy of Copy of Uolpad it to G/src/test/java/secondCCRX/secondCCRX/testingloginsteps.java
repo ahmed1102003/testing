@@ -153,7 +153,7 @@ public class testingloginsteps {
 		here_is_the_steps_for_Navaigate_to_Email_pop3_then_add_valid_data_for_POP3_user();
 		Go_out_from_POP3_page_and_back_to_EMail_page_and_click_on_Recevie_button();
 	}
-
+/*
 	@When("^test id NW012006$")
 	public void test_id_NW012006() throws Throwable {
 		callmethod();
@@ -187,7 +187,7 @@ public class testingloginsteps {
 		new Check_Interval(150).run();
 
 	}
-
+*/
 	@When("^test id NW012010$")
 	public void test_id_NW0120010() throws Throwable {
 		callmethod();
@@ -207,7 +207,12 @@ public class testingloginsteps {
 		Go_out_from_POP3_page_and_back_to_EMail_page_and_click_on_Recevie_button();
 		wait_for_seconds(65);// this will wait as per how many mins the user
 								// added to the sleep
-		new Thread(new Check_Interval(0)).run();
+		new Thread(new 
+			   
+			   
+			   
+			   
+			   (0)).run();
 		Back_again_to_Email_page_and_click_on_Receive_button();
 	}
 
