@@ -11,7 +11,7 @@ import cucumber.api.junit.*;
 		"junit:target/test-report.xml" }, features = {
 
 				// this for POP Port number
-				"src/test/BDD/POP3/3_Users/3_Users.feature",
+				"src/test/BDD/Perfomance testing/Calculate_The_Time_For_Rest_Device.feature",
 
 })
 
