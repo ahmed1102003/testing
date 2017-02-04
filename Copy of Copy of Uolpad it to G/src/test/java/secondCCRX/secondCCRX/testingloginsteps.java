@@ -215,7 +215,7 @@ public class testingloginsteps {
 			   (0)).run();
 		Back_again_to_Email_page_and_click_on_Receive_button();
 	}
-
+/*
 	@When("^test id NW012014$")
 	public void test_id_NW0120014() throws Throwable {
 		callmethod();
@@ -240,7 +240,7 @@ public class testingloginsteps {
 		new Thread(new Check_Interval(0)).run();
 		Back_again_to_Email_page_and_click_on_Receive_button();
 	}
-	
+*/	
 
 	@When("^test id NW012101$")
 	public void test_id_NW012101() throws Throwable {
@@ -298,7 +298,7 @@ public class testingloginsteps {
 		here_is_the_steps_for_Navaigate_to_Email_pop3_then_add_valid_data_for_POP3_user_And_Select_Cover_Page_OFF_Port_110();
 		Go_out_from_POP3_page_and_back_to_EMail_page_and_click_on_Recevie_button();
 	}
-
+/*
 	class Check_Interval implements Runnable {
 
 		private int time;
@@ -320,6 +320,7 @@ public class testingloginsteps {
 			}
 		}
 	}
+	*/
 
 	@When("^Confrim the message with OK OFF OFF$")
 	public void Confrim_the_message_with_OK_OFF_OFF() throws Throwable {
